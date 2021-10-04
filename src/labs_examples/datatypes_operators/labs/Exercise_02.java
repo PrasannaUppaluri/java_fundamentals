@@ -23,7 +23,9 @@ public class Exercise_02 {
 
     public static void main(String[] args) {
 
-        // write code here
+        double val = 10.5;
+        int y = (int)val;
+        System.out.println("this is explicit casting or narrowing "+ y);
 
     }
 }

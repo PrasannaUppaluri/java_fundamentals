@@ -17,9 +17,10 @@ public class Exercise_05 {
         int value = str.length();
         System.out.println(value);
         String str2 = "hello";
+        str2 = str2+"!";
         // please initialize a boolean variable and test whether str is equal to str2
-        boolean b = str.equals(str2);
-        System.out.println(b);
+        boolean b = str.equals(str2);//.equals method is use to equate values
+        System.out.println(str==str2);//==is used to equate the address.
         // please concatenate str & str2 and set the result to a new String variable below
 
         String s = str + str2;

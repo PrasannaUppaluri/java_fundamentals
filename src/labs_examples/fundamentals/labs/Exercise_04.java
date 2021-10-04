@@ -18,7 +18,7 @@ public class Exercise_04 {
         float b = 38.98f;
         byte v = 34;
         char c = 'A';
-        double d = 1.23456;
+        double d = 129000.64;
         long value = 4565766788L;
         boolean a = true;
         short s = 567;

@@ -16,7 +16,16 @@ public class Exercise_01 {
 
     public static void main(String[] args) {
 
-        // write code here
+        int age =37;
+        float height = 6.1f;
+        double salary = 110.542;
+        char middleName = 'A';
+
+        System.out.println("age is "+age);
+        System.out.println("height is "+height);
+        System.out.println("salary is "+salary);
+        System.out.println("middelName is "+middleName);
+
 
     }
 }
