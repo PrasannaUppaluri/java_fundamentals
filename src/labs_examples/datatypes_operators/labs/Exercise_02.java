@@ -20,12 +20,16 @@ package labs_examples.datatypes_operators.labs;
  */
 
 public class Exercise_02 {
-
+static int a;
+static int b;//static for variables, methods & classes- it is associated with the class & not with the object.
     public static void main(String[] args) {
 
         double val = 10.5;
+        char c = 'A';
+        int z = (int)c;
         int y = (int)val;
-        System.out.println("this is explicit casting or narrowing "+ y);
+        System.out.println("this is explicit casting or narrowing "+ z);
+
 
     }
 }
