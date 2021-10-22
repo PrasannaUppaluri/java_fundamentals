@@ -1,5 +1,6 @@
 package labs_examples.conditions_loops.labs;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 /**
@@ -19,14 +20,15 @@ public class Exercise_07 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter the word of your choice!");
-        String s = scanner.next();
+        String s = scanner.next().toLowerCase();
+        String vowels = "aeiou";
 
         int number = 0;
-        while (number <= s.length()) {
-            if (((s.charAt(number) == 'a'))||
-            ((s.charAt(number) == 'e')) || ((s.charAt(number) == 'i')) || ((s.charAt(number) == 'o')) || ((s.charAt(number) == 'u'))) {
-                System.out.println("The first vowels is :"+s.charAt(number)+s.indexOf(number));
-                System.out.println("The word is:"+s);
+        while (number < s.length()) {
+
+            if (((s.charAt(number) == 'a')) || ((s.charAt(number) == 'e')) || ((s.charAt(number) == 'i')) || ((s.charAt(number) == 'o')) || ((s.charAt(number) == 'u'))) {
+                System.out.println("The first vowel is :" + s.charAt(number));
+                System.out.println("The word is:" + s);
 
 
             }
@@ -36,11 +38,7 @@ public class Exercise_07 {
 
 
     }
-
 }
-
-
-
 
 
 
