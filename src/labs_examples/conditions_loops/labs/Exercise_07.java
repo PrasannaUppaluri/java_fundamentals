@@ -26,9 +26,10 @@ public class Exercise_07 {
         int number = 0;
         while (number < s.length()) {
 
-            if (((s.charAt(number) == 'a')) || ((s.charAt(number) == 'e')) || ((s.charAt(number) == 'i')) || ((s.charAt(number) == 'o')) || ((s.charAt(number) == 'u'))) {
+            if (vowels.indexOf(s.charAt(number))!= -1) {// || ((s.charAt(number) == 'e')) || ((s.charAt(number) == 'i')) || ((s.charAt(number) == 'o')) || ((s.charAt(number) == 'u'))) {
                 System.out.println("The first vowel is :" + s.charAt(number));
                 System.out.println("The word is:" + s);
+                break;
 
 
             }
